@@ -45,8 +45,6 @@ int main()
 		getline(legalWords, wordsArray[index]);
 		//cout << wordsArray[index]<<endl;
 	    index++; 
-                //if you put index++ before the print, you are trying to print the non-existent
-                // next word that you have not stored yet.
 	}
 	legalWords.close();//close the file
 
